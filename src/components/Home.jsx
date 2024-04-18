@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./Home.css";
 import Type from "./Type";
 import homeSvg from "../assets/home-main.svg";
-import homeOne from "../assets/one.jpg";
+import homeOne from "../assets/one.jpg";  
 import Particle from "./Particle";
 
 const Home = () => {
