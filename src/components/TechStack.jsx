@@ -8,6 +8,8 @@ import { TbBrandVscode } from "react-icons/tb";
 import { SiPostman } from "react-icons/si";
 import { SiPycharm } from "react-icons/si";
 import { SiPandas } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiRedux } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -129,6 +131,15 @@ function TechStack() {
               >
                 <SiPandas />
               </motion.li>
+
+              <motion.li
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 1.1 }}
+                className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md hover:border-b-2 hover:border-purple-600"
+              >
+                <IoLogoFirebase />
+              </motion.li>
             </ul>
           </div>
         </div>
@@ -154,6 +165,15 @@ function TechStack() {
                 className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md hover:border-b-2 hover:border-purple-600"
               >
                 <SiPostman />
+              </motion.li>
+
+              <motion.li
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 1.3 }}
+                className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md hover:border-b-2 hover:border-purple-600"
+              >
+                <SiRedux />
               </motion.li>
 
               <motion.li
