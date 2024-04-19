@@ -4,10 +4,10 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import Particle from "./Particle";
+import Particle from "../components/Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-function Resume() {
+function ResumePage() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -50,4 +50,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default ResumePage;

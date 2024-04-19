@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Home.css";
-import Type from "./Type";
+import Type from "../components/Type";
 import homeSvg from "../assets/home-main.svg";
 import homeOne from "../assets/one.jpg";  
-import Particle from "./Particle";
+import Particle from "../components/Particle";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <main>
       <motion.section
@@ -98,4 +98,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
