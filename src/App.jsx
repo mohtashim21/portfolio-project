@@ -1,12 +1,16 @@
 import React from 'react'
-import Home from './components/Home'
-import About from './components/About'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import ProjectsPage from './pages/ProjectsPage'
+import ResumePage from './pages/ResumePage'
 
 const App = () => {
   return (
     <div>
-      {/* <Home /> */}
-      <About />
+      {/* <HomePage /> */}
+      {/* <AboutPage /> */}
+      <ProjectsPage />
+      {/* <ResumePage /> */}
     </div>
   )
 }
