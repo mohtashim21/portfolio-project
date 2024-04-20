@@ -27,7 +27,7 @@ function TechStack() {
           <h1 className="text-4xl sm:text-5xl text-center my-10">
             Professional <span className="text-amber-300">Skillset</span>
           </h1>
-          <div className="flex flex-col sm:gap-12 flex-wrap sm:mt-14 px-[0]">
+          <div className="flex flex-col sm:gap-10 flex-wrap sm:mt-14 px-[0]">
             <ul className="flex  gap-[2rem] sm:gap-[6rem] flex-wrap text-7xl justify-center">
               <motion.li
                 initial={{ opacity: 0, y: 20 }}
