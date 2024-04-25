@@ -5,6 +5,10 @@ import Type from "../components/Type";
 import homeSvg from "../assets/home-main.svg";
 import homeOne from "../assets/one.jpg";  
 import Particle from "../components/Particle";
+// import { FaLinkedin } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa6";
+// import { MdEmail } from "react-icons/md";
+
 
 const HomePage = () => {
   return (
@@ -17,7 +21,7 @@ const HomePage = () => {
         <div className="sm:flex sm:justify-center sm:flex-wrap sm:gap-[12%] sm:mr-[7%]">
           <Particle />
           <div
-            className="text-[1.9rem] sm:text-[2.6rem] pl-[1.8rem] pt-[12%] mb-[5%]"
+            className="text-[1.9rem] sm:text-[2.6rem] pl-[1.8rem] sm:pt-[8%] mb-[5%]"
             style={{
               color: "wheat",
               fontWeight: "bolder",
@@ -50,13 +54,13 @@ const HomePage = () => {
             <img
               src={homeSvg}
               alt="image"
-              className="h-[70vh] ml-[5%] sm:h-[75vh] sm:pt-[20%]"
+              className="h-[70vh] ml-[5%] sm:h-[75vh] sm:pt-[12%]"
             />
           </div>
         </div>
       </motion.section>
 
-      <div className="flex mt-[5%] ml-[11%] gap-[10%] flex-wrap text-slate-50">
+      <div className="flex sm:mt-[3%] mt-[5%] ml-[11%] gap-[10%] flex-wrap text-slate-50">
         <div>
           <motion.img
             initial={{ opacity: 0, y: -100 }}
@@ -91,6 +95,20 @@ const HomePage = () => {
               <br /> technologies.. I have build several projects in MERN Stack
               & React JS.
             </p>
+
+            {/* <div className='flex justify-center flex-col' >
+    
+         <h2 className='text-center text-4xl ' style={{color:'wheat',fontWeight:'bold', fontFamily:'sans-serif'}}>Follow Me </h2>
+    
+    </div>
+    <div className="flex justify-center gap-2 py-3">
+         <p className=' py-4 self-center' /> <FaLinkedin size={39} style={{color:'wheat'}} /> 
+         
+         <p className='inline-block self-center' /><FaGithub size={39} style={{color:'wheat'}} />
+         
+         <p className='inline-block self-center'/><MdEmail size={39}  style={{color:'wheat'}} />
+
+   </div>  */}
           </motion.div>
         </div>
       </div>
