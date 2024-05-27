@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 import "./Home.css";
 import Type from "../components/Type";
 import homeSvg from "../assets/home-main.svg";
-import homeOne from "../assets/one.jpg";  
+import myimage from "../assets/myimage.jpg";
+// import homeOne from "../assets/one.jpg";  
 import Particle from "../components/Particle";
+// import MyInfo from "../components/MyInfo";
 // import { FaLinkedin } from "react-icons/fa";
 // import { FaGithub } from "react-icons/fa6";
 // import { MdEmail } from "react-icons/md";
@@ -13,6 +15,7 @@ import Particle from "../components/Particle";
 const HomePage = () => {
   return (
     <main>
+      {/* <MyInfo /> */}
       <motion.section
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -50,18 +53,18 @@ const HomePage = () => {
               <Type />
             </div>
           </div>
-          <div>
+          <picture className="flex justify-center">
             <img
-              src={homeSvg}
+              src={myimage}
               alt="image"
-              className="h-[70vh] ml-[5%] sm:h-[75vh] sm:pt-[12%]"
+              className="h-[65vh] sm:h-[70vh] sm:pt-[12%] brightness-110 rounded-lg"
             />
-          </div>
+          </picture>
         </div>
       </motion.section>
 
-      <div className="flex sm:mt-[3%] mt-[5%] ml-[11%] gap-[10%] flex-wrap text-slate-50">
-        <div>
+      <div div className="flex sm:mt-[3%] mt-[5%] ml-[16%] gap-[7%] flex-wrap text-slate-50">
+        {/* <div>
           <motion.img
             initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
@@ -70,7 +73,7 @@ const HomePage = () => {
             alt="Image"
             className="h-[55vh] ml-[5%] sm:h-96 rounded-xl"
           />
-        </div>
+        </div> */}
 
         <div className="my-[2%] sm:my-[0]">
           <motion.div
@@ -91,7 +94,7 @@ const HomePage = () => {
               I'm a passionate Mern Stack web developer, <br />
               I have knowledge in HTML, CSS, JavaScript, Bootstrap, React JS{" "}
               <br />
-              I am still learning the backend technologies, but i know frontend{" "}
+              I am still learning the backend technologies, but i know express js, mongodb, rest Api, mysql.{" "}
               <br /> technologies.. I have build several projects in MERN Stack
               & React JS.
             </p>
