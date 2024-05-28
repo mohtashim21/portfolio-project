@@ -2,15 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./Home.css";
 import Type from "../components/Type";
-import homeSvg from "../assets/home-main.svg";
 import myimage from "../assets/myimage.jpg";
-// import homeOne from "../assets/one.jpg";  
 import Particle from "../components/Particle";
-// import MyInfo from "../components/MyInfo";
-// import { FaLinkedin } from "react-icons/fa";
-// import { FaGithub } from "react-icons/fa6";
-// import { MdEmail } from "react-icons/md";
-
 
 const HomePage = () => {
   return (
@@ -63,19 +56,11 @@ const HomePage = () => {
         </div>
       </motion.section>
 
-      <div div className="flex sm:mt-[3%] mt-[5%] ml-[16%] gap-[7%] flex-wrap text-slate-50">
-        {/* <div>
-          <motion.img
-            initial={{ opacity: 0, y: -100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.5 }}
-            src={homeOne}
-            alt="Image"
-            className="h-[55vh] ml-[5%] sm:h-96 rounded-xl"
-          />
-        </div> */}
-
-        <div className="my-[2%] sm:my-[0]">
+      <div
+        div
+        className="flex sm:mt-[3%] mt-[5%] justify-center items-center mx-[5%] gap-[7%] flex-wrap text-slate-50"
+      >
+        <div className="my-[2%] mx-[0] sm:my-[0] font-mono">
           <motion.div
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
@@ -91,27 +76,12 @@ const HomePage = () => {
               <h1 className="text-lime-200 text-[1.6rem] sm:text-[2rem] mb-[2.6%]">
                 Let Me Introduce Myself
               </h1>
-              I'm a passionate Mern Stack web developer, <br />
-              I have knowledge in HTML, CSS, JavaScript, Bootstrap, React JS{" "}
-              <br />
-              I am still learning the backend technologies, but i know express js, mongodb, rest Api, mysql.{" "}
-              <br /> technologies.. I have build several projects in MERN Stack
-              & React JS.
+              I'm a passionate Mern Stack web developer, <br />I have knowledge
+              in HTML, CSS, JavaScript, Bootstrap, React JS <br />I am still
+              learning the backend technologies, but i know express js, mongodb,
+              rest Api, mysql. <br /> technologies.. I have build several
+              projects in MERN Stack & React JS.
             </p>
-
-            {/* <div className='flex justify-center flex-col' >
-    
-         <h2 className='text-center text-4xl ' style={{color:'wheat',fontWeight:'bold', fontFamily:'sans-serif'}}>Follow Me </h2>
-    
-    </div>
-    <div className="flex justify-center gap-2 py-3">
-         <p className=' py-4 self-center' /> <FaLinkedin size={39} style={{color:'wheat'}} /> 
-         
-         <p className='inline-block self-center' /><FaGithub size={39} style={{color:'wheat'}} />
-         
-         <p className='inline-block self-center'/><MdEmail size={39}  style={{color:'wheat'}} />
-
-   </div>  */}
           </motion.div>
         </div>
       </div>
