@@ -50,7 +50,7 @@ const HomePage = () => {
             <img
               src={myimage}
               alt="image"
-              className="h-[60vh] mx-5 sm:h-[70vh] sm:pt-[12%] brightness-110 rounded-lg"
+              className="h-[45vh] mx-5 sm:h-[70vh] sm:pt-[12%] brightness-110 rounded-lg"
             />
           </picture>
         </div>
