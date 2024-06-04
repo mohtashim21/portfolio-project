@@ -29,11 +29,11 @@ function ResumePage() {
         &nbsp;Download CV
       </Button>
   </div>
-  <div className="resume">
+{/*   <div className="resume">
     <Document file={pdf} className="flex justify-center">
       <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
     </Document>
-  </div>
+  </div> */}
 
   <div className="justify-center relative">
     <Button
