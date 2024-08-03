@@ -22,7 +22,7 @@ import {
 function TechStack() {
   return (
     <>
-      <section className="text-slate-50 flex flex-col items-center">
+      <section className="text-slate-50 flex flex-col items-center my-2">
         <div>
           <h1 className="text-4xl sm:text-5xl text-center my-10">
             Professional <span className="text-amber-300">Skillset</span>
