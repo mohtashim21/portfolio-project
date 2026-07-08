@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline'
 import Particle from '../components/Particle'
-import resumePDF from '../assets/Mohtashim_Maaz_Full_Stack_Developer_Resume (4)_compressed.pdf'
+import resumePDF from '../assets/Mohtashim_Maaz_Resume_1.pdf'
 
 const ResumePage = () => {
     const handleDownload = () => {

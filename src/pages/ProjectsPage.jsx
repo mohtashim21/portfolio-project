@@ -14,7 +14,7 @@ const projectData = [
     link: "https://mental-health-therapy.netlify.app/"
   },
   {
-    title: "Shopify Cloane",
+    title: "Shopify Clone",
     desc: "Premium e-commerce experience featuring dynamic filtering, cart management, and a refined UI for high-end fashion browsing.",
     image: shopify_project,
     link: "https://github.com/mohtashim21/shopify"
